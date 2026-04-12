@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premises Injury Blog | Miami Property Injury Legal Insights</title>
+    <meta name="description" content="Expert legal articles on premises liability, slip and fall injuries, negligent security, and property injury claims in Miami. Free resources for injury victims.">
+    <link rel="canonical" href="https://premisesinjurymiami.com/blog/">
+    <style>
+        :root {
+            --primary: #1a2a3a;
+            --accent: #c8a951;
+            --accent-dark: #b08f3a;
+            --light: #f8f6f0;
+            --white: #ffffff;
+            --text: #333333;
+            --text-light: #666666;
+            --shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Georgia', 'Times New Roman', serif; color: var(--text); line-height: 1.7; }
+        h1, h2, h3, h4, nav, .btn, .top-bar, .tag { font-family: 'Helvetica Neue', Arial, sans-serif; }
+
+        .top-bar {
+            background: var(--primary);
+            color: var(--white);
+            padding: 10px 0;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        .top-bar a { color: var(--accent); text-decoration: none; font-weight: 700; }
+        .top-bar a:hover { text-decoration: underline; }
+
+        nav {
+            background: var(--white);
+            padding: 15px 0;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { font-size: 1.3rem; font-weight: 700; color: var(--primary); text-decoration: none; letter-spacing: 0.5px; }
+        .logo span { color: var(--accent); }
+        .nav-links { display: flex; gap: 25px; list-style: none; }
+        .nav-links a { text-decoration: none; color: var(--primary); font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--accent); }
+        .hamburger { display: none; font-size: 1.5rem; cursor: pointer; background: none; border: none; color: var(--primary); }
+
+        .page-header {
+            background: linear-gradient(135deg, var(--primary) 0%, #2c3e50 100%);
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .page-header h1 { font-size: 2.4rem; margin-bottom: 15px; }
+        .page-header h1 span { color: var(--accent); }
+        .page-header p { font-size: 1.1rem; opacity: 0.9; max-width: 650px; margin: 0 auto; }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+        .blog-listing { padding: 60px 20px; }
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 30px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .blog-card {
+            background: var(--white);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-card:hover { transform: translateY(-5px); }
+        .blog-card-body { padding: 28px; flex: 1; display: flex; flex-direction: column; }
+        .tag {
+            display: inline-block;
+            background: var(--light);
+            color: var(--accent-dark);
+            padding: 4px 12px;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            align-self: flex-start;
+        }
+        .blog-card h2 { font-size: 1.15rem; color: var(--primary); margin-bottom: 12px; line-height: 1.4; }
+        .blog-card h2 a { color: var(--primary); text-decoration: none; }
+        .blog-card h2 a:hover { color: var(--accent-dark); }
+        .blog-card p { color: var(--text-light); font-size: 0.9rem; margin-bottom: 18px; flex: 1; }
+        .read-more { color: var(--accent-dark); font-weight: 700; text-decoration: none; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 0.85rem; text-transform: uppercase; }
+        .read-more:hover { text-decoration: underline; }
+
+        .cta-banner {
+            background: linear-gradient(135deg, var(--primary) 0%, #2c3e50 100%);
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .cta-banner h2 { font-size: 2rem; margin-bottom: 15px; }
+        .cta-banner p { font-size: 1.1rem; opacity: 0.9; max-width: 600px; margin: 0 auto 30px; }
+        .btn {
+            display: inline-block;
+            padding: 16px 40px;
+            background: var(--accent);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            transition: background 0.3s, transform 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .btn:hover { background: var(--accent-dark); transform: translateY(-2px); }
+        .cta-banner .phone { font-size: 2rem; color: var(--accent); font-weight: 700; text-decoration: none; display: block; margin-bottom: 20px; }
+
+        footer {
+            background: #111;
+            color: #aaa;
+            padding: 40px 20px;
+            text-align: center;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 0.85rem;
+        }
+        footer a { color: var(--accent); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        footer p { margin-bottom: 8px; }
+        .footer-links { margin-bottom: 20px; }
+        .footer-links a { margin: 0 15px; }
+        .disclaimer { font-size: 0.75rem; color: #777; max-width: 700px; margin: 20px auto 0; line-height: 1.5; }
+
+        @media (max-width: 768px) {
+            .page-header h1 { font-size: 1.8rem; }
+            .blog-grid { grid-template-columns: 1fr; }
+            .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; left: 0; right: 0; background: var(--white); padding: 20px; box-shadow: var(--shadow); }
+            .nav-links.active { display: flex; }
+            .hamburger { display: block; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        Injured on someone's property? Call now: <a href="tel:305-792-9100">305-792-9100</a>
+    </div>
+
+    <nav>
+        <div class="nav-inner">
+            <a href="/" class="logo">PREMISES INJURY <span>MIAMI</span></a>
+            <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')" aria-label="Menu">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="/#practice-areas">Practice Areas</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/#why-us">Why Us</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <h1>Premises Injury <span>Blog</span></h1>
+        <p>Legal insights, case strategies, and guidance for property injury victims in Miami-Dade County.</p>
+    </div>
+
+    <section class="blog-listing">
+        <div class="blog-grid">
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Slip &amp; Fall</span>
+                    <h2><a href="/blog/slip-and-fall-claims-miami.html">What to Do After a Slip and Fall in a Miami Store or Restaurant</a></h2>
+                    <p>The steps you take in the first 24 hours after a slip and fall can determine the outcome of your case. Learn how to protect your rights and preserve critical evidence.</p>
+                    <a href="/blog/slip-and-fall-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Apartments</span>
+                    <h2><a href="/blog/apartment-complex-injury-claims-miami.html">Injured in a Miami Apartment Complex? Your Landlord May Be Liable</a></h2>
+                    <p>Broken stairwells, missing handrails, and poor lighting cause thousands of injuries in Miami apartment buildings every year. Know your legal rights as a tenant or visitor.</p>
+                    <a href="/blog/apartment-complex-injury-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Negligent Security</span>
+                    <h2><a href="/blog/negligent-security-claims-miami.html">Negligent Security in Miami: When Property Owners Fail to Protect You</a></h2>
+                    <p>If you were assaulted or robbed on someone else's property due to inadequate security measures, the property owner may owe you substantial compensation.</p>
+                    <a href="/blog/negligent-security-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Hotels</span>
+                    <h2><a href="/blog/hotel-resort-injury-claims-miami.html">Hotel and Resort Injury Claims in Miami: What Guests Need to Know</a></h2>
+                    <p>Miami hotels owe guests a high duty of care. Pool accidents, wet lobby floors, balcony defects, and security failures can lead to significant injury claims.</p>
+                    <a href="/blog/hotel-resort-injury-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Parking Garages</span>
+                    <h2><a href="/blog/parking-garage-injury-claims-miami.html">Parking Garage Injuries in Miami: Who Is Responsible?</a></h2>
+                    <p>Crumbling concrete, poor lighting, oil slicks, and missing signage make parking garages one of the most common sites for premises injuries in Miami.</p>
+                    <a href="/blog/parking-garage-injury-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Commercial Property</span>
+                    <h2><a href="/blog/commercial-property-injury-claims-miami.html">Commercial Property Injuries in Miami: Holding Businesses Accountable</a></h2>
+                    <p>Shopping malls, office buildings, and retail stores must maintain safe premises. When they cut corners on maintenance, injuries follow.</p>
+                    <a href="/blog/commercial-property-injury-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Condos</span>
+                    <h2><a href="/blog/condo-hoa-injury-liability-miami.html">Condo and HOA Injury Liability in Miami: Who Pays When You Get Hurt?</a></h2>
+                    <p>Common area injuries in Miami condominiums raise complex liability questions. Learn how HOA negligence can lead to substantial injury claims.</p>
+                    <a href="/blog/condo-hoa-injury-liability-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Swimming Pools</span>
+                    <h2><a href="/blog/swimming-pool-injury-claims-miami.html">Swimming Pool Injuries at Miami Apartments and Condos: Legal Options</a></h2>
+                    <p>Drownings, slip and falls on pool decks, diving injuries, and drain entrapment at residential pools can result in catastrophic injury claims.</p>
+                    <a href="/blog/swimming-pool-injury-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Elevators</span>
+                    <h2><a href="/blog/elevator-escalator-injury-claims-miami.html">Elevator and Escalator Injuries in Miami Buildings: Liability Guide</a></h2>
+                    <p>Malfunctioning elevators and escalators in Miami high-rises, malls, and commercial buildings cause serious injuries. Multiple parties may be liable.</p>
+                    <a href="/blog/elevator-escalator-injury-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Restaurants &amp; Bars</span>
+                    <h2><a href="/blog/restaurant-bar-injury-claims-miami.html">Injured at a Miami Restaurant or Bar? Your Legal Rights Explained</a></h2>
+                    <p>Spilled drinks, broken furniture, overcrowding, and inadequate security at Miami nightlife venues can lead to serious injuries and strong legal claims.</p>
+                    <a href="/blog/restaurant-bar-injury-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Construction Sites</span>
+                    <h2><a href="/blog/construction-site-visitor-injuries-miami.html">Injured Near a Miami Construction Site? You May Have a Premises Claim</a></h2>
+                    <p>Pedestrians and neighboring property occupants injured by construction site hazards can pursue premises liability claims against property owners and contractors.</p>
+                    <a href="/blog/construction-site-visitor-injuries-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Premises Liability</span>
+                    <h2><a href="/blog/florida-premises-liability-law-guide.html">Florida Premises Liability Law: A Complete Guide for Injury Victims</a></h2>
+                    <p>Understanding Florida's premises liability statutes, duty of care standards, and comparative negligence rules is essential for maximizing your injury claim.</p>
+                    <a href="/blog/florida-premises-liability-law-guide.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Grocery Stores</span>
+                    <h2><a href="/blog/grocery-store-injury-claims-miami.html">Grocery Store Slip and Fall Injuries in Miami: Holding Supermarkets Accountable</a></h2>
+                    <p>Spilled liquids, produce on floors, and leaking refrigeration units make grocery stores one of the most common locations for slip and fall injuries in Miami.</p>
+                    <a href="/blog/grocery-store-injury-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Office Buildings</span>
+                    <h2><a href="/blog/office-building-injury-claims-miami.html">Office Building Injuries in Miami: When Your Workplace Isn't Safe</a></h2>
+                    <p>Wet lobby floors, elevator malfunctions, and parking garage hazards in Miami's Brickell and Downtown office towers can lead to serious premises injury claims.</p>
+                    <a href="/blog/office-building-injury-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Trip &amp; Fall</span>
+                    <h2><a href="/blog/sidewalk-trip-and-fall-miami.html">Sidewalk Trip and Fall Injuries in Miami: Who Is Responsible?</a></h2>
+                    <p>Cracked and uneven sidewalks caused by tree roots, settling, and poor repairs injure thousands of pedestrians in Miami every year. Multiple parties may be liable.</p>
+                    <a href="/blog/sidewalk-trip-and-fall-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Dog Bites</span>
+                    <h2><a href="/blog/dog-bite-premises-liability-miami.html">Dog Bite Injuries on Miami Properties: Premises Liability and Owner Responsibility</a></h2>
+                    <p>When dog attacks happen at apartment complexes and condos, both the dog owner and the property owner may be liable under Florida's strict liability statute.</p>
+                    <a href="/blog/dog-bite-premises-liability-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Stairway Falls</span>
+                    <h2><a href="/blog/stairway-injury-claims-miami.html">Stairway Falls in Miami Buildings: When Broken Steps and Missing Handrails Cause Injuries</a></h2>
+                    <p>Aging stairways with broken steps, missing handrails, and code violations are a leading cause of severe premises injuries in Miami's multi-story buildings.</p>
+                    <a href="/blog/stairway-injury-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Vacation Rentals</span>
+                    <h2><a href="/blog/airbnb-vacation-rental-injury-miami.html">Injured in a Miami Airbnb or Vacation Rental? Your Legal Options</a></h2>
+                    <p>Miami's booming short-term rental market creates unique injury risks. Insurance gaps and unpermitted conversions can complicate — and strengthen — your claim.</p>
+                    <a href="/blog/airbnb-vacation-rental-injury-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Toxic Mold</span>
+                    <h2><a href="/blog/toxic-mold-water-damage-injury-miami.html">Toxic Mold and Water Damage Injuries in Miami Apartments and Condos</a></h2>
+                    <p>Miami's humidity makes mold a pervasive threat in rental properties. When landlords ignore leaks and moisture problems, tenants suffer serious health consequences.</p>
+                    <a href="/blog/toxic-mold-water-damage-injury-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Playgrounds</span>
+                    <h2><a href="/blog/playground-injury-claims-miami.html">Playground Injuries at Miami Apartments, Parks, and Daycares: Legal Options for Parents</a></h2>
+                    <p>Children are especially vulnerable to premises hazards. Broken equipment, hot surfaces, and inadequate fall surfacing cause serious playground injuries.</p>
+                    <a href="/blog/playground-injury-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Wrongful Death</span>
+                    <h2><a href="/blog/wrongful-death-premises-liability-miami.html">Wrongful Death from Premises Injuries in Miami: Holding Property Owners Accountable</a></h2>
+                    <p>When premises negligence results in death — fatal falls, drownings, assaults — surviving family members can pursue substantial wrongful death claims.</p>
+                    <a href="/blog/wrongful-death-premises-liability-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <span class="tag">Elderly Falls</span>
+                    <h2><a href="/blog/elderly-fall-injury-claims-miami.html">Elderly Fall Injuries in Miami: Why These Premises Claims Carry High Value</a></h2>
+                    <p>South Florida's large senior population faces disproportionately severe injuries from falls. The eggshell skull rule means property owners pay for the full extent of harm.</p>
+                    <a href="/blog/elderly-fall-injury-claims-miami.html" class="read-more">Read More &rarr;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cta-banner">
+        <h2>Injured on Someone Else's Property?</h2>
+        <p>Time is critical. Surveillance footage gets deleted. Maintenance logs disappear. Contact us today for a free case evaluation.</p>
+        <a href="tel:305-792-9100" class="phone">305-792-9100</a>
+        <a href="mailto:rafael@recaldelaw.com" class="btn">Email Us for a Free Case Review</a>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/#practice-areas">Practice Areas</a>
+            <a href="/blog/">Blog</a>
+            <a href="/#contact">Contact</a>
+        </div>
+        <p>Rafael Recalde, Esq. | <a href="tel:305-792-9100">305-792-9100</a> | <a href="mailto:rafael@recaldelaw.com">rafael@recaldelaw.com</a></p>
+        <p>1221 Brickell Ave, Suite 900, Miami, FL 33131</p>
+        <p class="disclaimer">The information on this website is for general informational purposes only. Nothing on this site should be taken as legal advice for any individual case or situation. This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.</p>
+    </footer>
+
+</body>
+</html>
