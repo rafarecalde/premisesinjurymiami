@@ -544,24 +544,59 @@
     {
         "@context": "https://schema.org",
         "@type": "LegalService",
-        "name": "Premises Injury Miami",
-        "description": "Miami premises injury and slip and fall lawyer. Free consultation, no fee unless we win.",
-        "url": "https://premisesinjurymiami.com",
+        "@id": "https://premisesinjurymiami.com/#organization",
+        "name": "Premises Injury Miami — Rafael Recalde, Esq.",
+        "url": "https://premisesinjurymiami.com/",
+        "image": "https://premisesinjurymiami.com/assets/headshot2.jpg",
         "telephone": "+1-305-792-9100",
         "email": "rafael@recaldelaw.com",
+        "priceRange": "Contingency fee — no fee unless we win",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "1221 Brickell Ave Suite 900",
+            "streetAddress": "1111 Brickell Avenue, Floor 10",
             "addressLocality": "Miami",
             "addressRegion": "FL",
-            "postalCode": "33131"
+            "postalCode": "33131",
+            "addressCountry": "US"
         },
-        "areaServed": {
-            "@type": "City",
-            "name": "Miami"
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 25.7580,
+            "longitude": -80.1918
         },
-        "priceRange": "No fee unless we win",
-        "image": "https://premisesinjurymiami.com/assets/headshot2.jpg"
+        "areaServed": [
+            { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
+            { "@type": "City", "name": "Miami" },
+            { "@type": "City", "name": "Miami Beach" },
+            { "@type": "City", "name": "Coral Gables" },
+            { "@type": "City", "name": "Hialeah" }
+        ],
+        "founder": {
+            "@type": "Person",
+            "name": "Rafael Recalde",
+            "jobTitle": "Attorney",
+            "honorificSuffix": "Esq.",
+            "memberOf": { "@type": "Organization", "name": "The Florida Bar" }
+        },
+        "knowsAbout": [
+            "Premises liability",
+            "Slip and fall",
+            "Negligent security",
+            "Apartment and condo injuries",
+            "Wrongful death"
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Premises Injury Practice Areas",
+            "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Slip and Fall Claims" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Negligent Security Claims" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Apartment and Condo Injury Claims" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hotel and Resort Injury Claims" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Swimming Pool Injury Claims" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wrongful Death Claims" } }
+            ]
+        }
     }
     </script>
 </head>
@@ -912,7 +947,7 @@
                 <div class="contact-detail">
                     <span class="cd-icon">&#9873;</span>
                     <div>
-                        <span>1221 Brickell Ave, Suite 900<br>Miami, FL 33131</span>
+                        <span>1111 Brickell Avenue, Floor 10<br>Miami, FL 33131</span>
                     </div>
                 </div>
                 <div style="margin-top:25px;padding:20px;background:var(--light);border-radius:8px;">
@@ -971,7 +1006,7 @@
             <a href="#contact">Contact</a>
         </div>
         <p>Rafael Recalde, Esq. | <a href="tel:305-792-9100">305-792-9100</a> | <a href="mailto:rafael@recaldelaw.com">rafael@recaldelaw.com</a></p>
-        <p>1221 Brickell Ave, Suite 900, Miami, FL 33131</p>
+        <p>1111 Brickell Avenue, Floor 10, Miami, FL 33131</p>
         <p class="disclaimer">The information on this website is for general informational purposes only. Nothing on this site should be taken as legal advice for any individual case or situation. This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship. Past results do not guarantee future outcomes. Rafael Recalde is a member of the Florida Bar.</p>
     </footer>
 
