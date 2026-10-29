@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Miami Premises Injury Practice Areas | Recalde Law Firm, P.A.</title>
+<meta content="Practice-area hub for Miami premises injuries: slip and falls, apartments, security, hotels, pools, garages, ports, and Florida statutes. Call 305-792-9100." name="description"/>
+<link href="https://premisesinjurymiami.com/injuries/" rel="canonical"/>
+<style>
+        :root {
+            --primary: #1a2a3a;
+            --accent: #c8a951;
+            --accent-dark: #b08f3a;
+            --light: #f8f6f0;
+            --white: #ffffff;
+            --text: #333333;
+            --text-light: #666666;
+            --shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Georgia', 'Times New Roman', serif; color: var(--text); line-height: 1.7; }
+        h1, h2, h3, h4, nav, .btn, .top-bar, .tag { font-family: 'Helvetica Neue', Arial, sans-serif; }
+
+        .top-bar {
+            background: var(--primary);
+            color: var(--white);
+            padding: 10px 0;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        .top-bar a { color: var(--accent); text-decoration: none; font-weight: 700; }
+        .top-bar a:hover { text-decoration: underline; }
+
+        nav {
+            background: var(--white);
+            padding: 15px 0;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { font-size: 1.3rem; font-weight: 700; color: var(--primary); text-decoration: none; letter-spacing: 0.5px; }
+        .logo span { color: var(--accent); }
+        .nav-links { display: flex; gap: 25px; list-style: none; }
+        .nav-links a { text-decoration: none; color: var(--primary); font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--accent); }
+        .hamburger { display: none; font-size: 1.5rem; cursor: pointer; background: none; border: none; color: var(--primary); }
+
+        .page-header {
+            background: linear-gradient(135deg, var(--primary) 0%, #2c3e50 100%);
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .page-header h1 { font-size: 2.4rem; margin-bottom: 15px; }
+        .page-header h1 span { color: var(--accent); }
+        .page-header p { font-size: 1.1rem; opacity: 0.9; max-width: 650px; margin: 0 auto; }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+        .blog-listing { padding: 60px 20px; }
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 30px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .blog-card {
+            background: var(--white);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-card:hover { transform: translateY(-5px); }
+        .blog-card-body { padding: 28px; flex: 1; display: flex; flex-direction: column; }
+        .tag {
+            display: inline-block;
+            background: var(--light);
+            color: var(--accent-dark);
+            padding: 4px 12px;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            align-self: flex-start;
+        }
+        .blog-card h2 { font-size: 1.15rem; color: var(--primary); margin-bottom: 12px; line-height: 1.4; }
+        .blog-card h2 a { color: var(--primary); text-decoration: none; }
+        .blog-card h2 a:hover { color: var(--accent-dark); }
+        .blog-card p { color: var(--text-light); font-size: 0.9rem; margin-bottom: 18px; flex: 1; }
+        .read-more { color: var(--accent-dark); font-weight: 700; text-decoration: none; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 0.85rem; text-transform: uppercase; }
+        .read-more:hover { text-decoration: underline; }
+
+        .cta-banner {
+            background: linear-gradient(135deg, var(--primary) 0%, #2c3e50 100%);
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .cta-banner h2 { font-size: 2rem; margin-bottom: 15px; }
+        .cta-banner p { font-size: 1.1rem; opacity: 0.9; max-width: 600px; margin: 0 auto 30px; }
+        .btn {
+            display: inline-block;
+            padding: 16px 40px;
+            background: var(--accent);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            transition: background 0.3s, transform 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .btn:hover { background: var(--accent-dark); transform: translateY(-2px); }
+        .cta-banner .phone { font-size: 2rem; color: var(--accent); font-weight: 700; text-decoration: none; display: block; margin-bottom: 20px; }
+
+        footer {
+            background: #111;
+            color: #aaa;
+            padding: 40px 20px;
+            text-align: center;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 0.85rem;
+        }
+        footer a { color: var(--accent); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        footer p { margin-bottom: 8px; }
+        .footer-links { margin-bottom: 20px; }
+        .footer-links a { margin: 0 15px; }
+        .disclaimer { font-size: 0.75rem; color: #777; max-width: 700px; margin: 20px auto 0; line-height: 1.5; }
+
+        @media (max-width: 768px) {
+            .page-header h1 { font-size: 1.8rem; }
+            .blog-grid { grid-template-columns: 1fr; }
+            .nav-links { display: none; flex-direction: column; position: absolute; top: 60px; left: 0; right: 0; background: var(--white); padding: 20px; box-shadow: var(--shadow); }
+            .nav-links.active { display: flex; }
+            .hamburger { display: block; }
+        }
+    
+.referral-notice{background:#f7f4ea;border-bottom:1px solid #e6d7a8;padding:8px 20px;font-family:'Helvetica Neue',Arial,sans-serif}.referral-notice p{max-width:1100px;margin:0 auto;font-size:.82rem;color:#3d4a57;line-height:1.45}
+.group-block{max-width:1100px;margin:0 auto 10px;padding:0 0 10px}.group-block h2{font-size:1.55rem;color:var(--primary);margin:28px 0 8px}.group-block .group-intro{color:var(--text-light);margin-bottom:18px}.group-block .group-intro a{color:var(--accent-dark);font-weight:700;text-decoration:none}.hub-intro{max-width:800px;margin:0 auto;padding:36px 20px 0}.hub-intro p{font-size:1.05rem;margin-bottom:16px}.hub-intro a{color:var(--accent-dark)}.hub-list{max-width:800px;margin:0 auto 10px;padding:10px 20px 0}.hub-list a{color:var(--accent-dark)}</style>
+</head>
+<body>
+<div class="top-bar">
+        Injured on someone's property? Call now: <a href="tel:305-792-9100">305-792-9100</a>
+</div>
+<nav>
+<div class="nav-inner">
+<a class="logo" href="/">RECALDE LAW FIRM, <span>P.A.</span></a>
+<button aria-label="Menu" class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')">☰</button>
+<ul class="nav-links">
+<li><a href="/injuries/">Practice Areas</a></li>
+<li><a href="/blog/">Blog</a></li>
+<li><a href="/#contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+<div class="referral-notice"><p>Recalde Law Firm, P.A. reviews premises-injury inquiries and refers litigation to other Florida counsel. Fee division only with your written consent under Rule 4-1.5.</p></div>
+<div class="page-header">
+<h1>Miami Premises Injury <span>Practice Areas</span></h1>
+<p>51 guides organized by where people get hurt and by the Florida rules that apply.</p>
+</div>
+<div class="hub-intro"><p>This is the practice-area index for premises injuries in Miami-Dade County. Each topic collects the guides that belong with it: the property type, the Florida statutes that usually apply, and the records worth preserving. Start with a topic, or scan the full library underneath.</p></div><section class="blog-listing"><div class="blog-grid"><div class="blog-card"><div class="blog-card-body"><span class="tag">Practice Area</span><h2><a href="/injuries/slip-and-fall.html">Slip and Fall Injuries in Miami</a></h2><p>Guides to Florida slip and fall claims in stores, restaurants, hospitals, gas stations, and on sidewalks. Free consultation: 305-792-9100.</p><a class="read-more" href="/injuries/slip-and-fall.html">Open Topic →</a></div></div><div class="blog-card"><div class="blog-card-body"><span class="tag">Practice Area</span><h2><a href="/injuries/apartments-condos-rentals.html">Apartment, Condo, and Rental Injuries</a></h2><p>Premises injury guides for Miami apartments, condominiums, landlords, HOAs, and short-term rentals. Free consultation: 305-792-9100.</p><a class="read-more" href="/injuries/apartments-condos-rentals.html">Open Topic →</a></div></div><div class="blog-card"><div class="blog-card-body"><span class="tag">Practice Area</span><h2><a href="/injuries/negligent-security.html">Negligent Security on Miami Property</a></h2><p>When an assault or robbery on Miami property may support a claim against the owner, and how sections 768.0706 and 768.0701 fit. Call 305-792-9100.</p><a class="read-more" href="/injuries/negligent-security.html">Open Topic →</a></div></div><div class="blog-card"><div class="blog-card-body"><span class="tag">Practice Area</span><h2><a href="/injuries/hotels-pools.html">Hotel, Resort, and Pool Injuries</a></h2><p>Guest injury guides for Miami hotels and resorts, including pools, balconies, and valet. Free consultation: 305-792-9100.</p><a class="read-more" href="/injuries/hotels-pools.html">Open Topic →</a></div></div><div class="blog-card"><div class="blog-card-body"><span class="tag">Practice Area</span><h2><a href="/injuries/parking-sidewalks-transit.html">Parking Garages, Sidewalks, and Pickup Zones</a></h2><p>Premises guides for Miami garages, valet, rideshare curbs, and sidewalks, including government notice rules. Call 305-792-9100.</p><a class="read-more" href="/injuries/parking-sidewalks-transit.html">Open Topic →</a></div></div><div class="blog-card"><div class="blog-card-body"><span class="tag">Practice Area</span><h2><a href="/injuries/retail-buildings.html">Stores, Malls, Offices, and Warehouses</a></h2><p>Premises injury guides for Miami retail, malls, escalators, offices, gyms, warehouses, and construction-adjacent hazards. Call 305-792-9100.</p><a class="read-more" href="/injuries/retail-buildings.html">Open Topic →</a></div></div><div class="blog-card"><div class="blog-card-body"><span class="tag">Practice Area</span><h2><a href="/injuries/restaurants-nightlife.html">Restaurant, Bar, and Nightclub Injuries</a></h2><p>Guides to falls, crowds, and security injuries at Miami restaurants, bars, and nightclubs, including section 768.125. Call 305-792-9100.</p><a class="read-more" href="/injuries/restaurants-nightlife.html">Open Topic →</a></div></div><div class="blog-card"><div class="blog-card-body"><span class="tag">Practice Area</span><h2><a href="/injuries/waterfront-storms.html">Ports, Marinas, and Property After a Storm</a></h2><p>Premises guides for PortMiami visitors, marina docks, and injuries from debris or dark property after a Florida storm. Call 305-792-9100.</p><a class="read-more" href="/injuries/waterfront-storms.html">Open Topic →</a></div></div><div class="blog-card"><div class="blog-card-body"><span class="tag">Practice Area</span><h2><a href="/injuries/children-seniors-death.html">Children, Older Adults, and Wrongful Death</a></h2><p>Miami guides on playground injuries, school and daycare visitors, elderly falls, and wrongful death after a premises incident. Call 305-792-9100.</p><a class="read-more" href="/injuries/children-seniors-death.html">Open Topic →</a></div></div><div class="blog-card"><div class="blog-card-body"><span class="tag">Practice Area</span><h2><a href="/injuries/dog-bites.html">Dog Bites on Miami Property</a></h2><p>Florida dog-bite statute section 767.04 and premises claims when a bite happens at a Miami rental, condo, or short-term rental. Call 305-792-9100.</p><a class="read-more" href="/injuries/dog-bites.html">Open Topic →</a></div></div><div class="blog-card"><div class="blog-card-body"><span class="tag">Practice Area</span><h2><a href="/injuries/florida-law.html">Florida Premises Law</a></h2><p>Plain-English guides to Florida premises statutes used in Miami injury claims, including 768.0755, 95.11, 768.81, 768.28, and 768.0706. Call 305-792-9100.</p><a class="read-more" href="/injuries/florida-law.html">Open Topic →</a></div></div></div></section><div class="hub-list"><h2><a href="/injuries/slip-and-fall.html">Slip, Trip, and Fall</a></h2><p>Spills, floors, stairs, sidewalks, and visitor falls.</p><ul><li><a href="/blog/florida-slip-and-fall-transitory-foreign-substance-768-0755.html">Slipped on a Spill in a Florida Store? How Section 768.0755 Works</a></li><li><a href="/blog/slip-and-fall-claims-miami.html">What to Do After a Slip and Fall in a Miami Store or Restaurant</a></li><li><a href="/blog/grocery-store-injury-claims-miami.html">Grocery Store Slip and Fall Injuries in Miami</a></li><li><a href="/blog/sidewalk-trip-and-fall-miami.html">Sidewalk Trip and Fall Injuries in Miami: Who Is Responsible?</a></li><li><a href="/blog/stairway-injury-claims-miami.html">Stairway Falls in Miami Buildings</a></li><li><a href="/blog/hospital-clinic-visitor-falls-miami.html">Visitor Falls at Miami Hospitals and Clinics</a></li></ul></div><div class="hub-list"><h2><a href="/injuries/apartments-condos-rentals.html">Apartments, Condos, and Rentals</a></h2><p>Landlords, associations, short-term rentals, mold, and balconies.</p><ul><li><a href="/blog/apartment-complex-injury-claims-miami.html">Injured in a Miami Apartment Complex? Your Landlord May Be Liable</a></li><li><a href="/blog/condo-hoa-injury-liability-miami.html">Condo and HOA Injury Liability in Miami</a></li><li><a href="/blog/florida-landlord-duty-to-maintain-83-51-injuries.html">What Florida Landlords Must Maintain Under Section 83.51</a></li><li><a href="/blog/airbnb-vacation-rental-injury-miami.html">Injured in a Miami Airbnb or Vacation Rental?</a></li><li><a href="/blog/balcony-railing-fall-injuries-miami.html">Balcony and Railing Falls at Miami Hotels, Condos, and Rentals</a></li><li><a href="/blog/toxic-mold-water-damage-injury-miami.html">Toxic Mold and Water Damage Injuries in Miami Apartments and Condos</a></li><li><a href="/blog/property-management-company-liability-miami.html">When the Property Management Company Is Liable for Your Injury</a></li></ul></div><div class="hub-list"><h2><a href="/injuries/negligent-security.html">Negligent Security</a></h2><p>Assaults, apartment security rules, and crowded venues.</p><ul><li><a href="/blog/negligent-security-claims-miami.html">Negligent Security in Miami: When Property Owners Fail to Protect You</a></li><li><a href="/blog/florida-negligent-security-apartments-768-0706-presumption.html">Negligent Security at Miami Apartments After 2023: The New Presumption</a></li></ul></div><div class="hub-list"><h2><a href="/injuries/hotels-pools.html">Hotels, Resorts, and Pools</a></h2><p>Guest injuries, pool decks, and resort property.</p><ul><li><a href="/blog/hotel-resort-injury-claims-miami.html">Hotel and Resort Injury Claims in Miami</a></li><li><a href="/blog/swimming-pool-injury-claims-miami.html">Swimming Pool Injuries at Miami Apartments and Condos</a></li><li><a href="/blog/florida-pool-safety-laws-drain-entrapment-barriers.html">Pool Drain Entrapment and Pool Safety Rules in Florida</a></li></ul></div><div class="hub-list"><h2><a href="/injuries/parking-sidewalks-transit.html">Parking, Sidewalks, and Pickup Zones</a></h2><p>Garages, valet stands, curbs, and rideshare lanes.</p><ul><li><a href="/blog/parking-garage-injury-claims-miami.html">Parking Garage Injuries in Miami: Who Is Responsible?</a></li><li><a href="/blog/valet-parking-injury-claims-miami.html">Hurt Using Valet Parking at a Miami Hotel, Restaurant, or Condo</a></li><li><a href="/blog/rideshare-pickup-zone-injuries-miami.html">Hurt in a Miami Rideshare or Taxi Pickup Zone</a></li></ul></div><div class="hub-list"><h2><a href="/injuries/retail-buildings.html">Stores, Malls, Offices, and Job-Site Visitors</a></h2><p>Retail floors, escalators, gyms, warehouses, and construction edges.</p><ul><li><a href="/blog/gas-station-injury-claims-miami.html">Injured at a Miami Gas Station or Convenience Store</a></li><li><a href="/blog/commercial-property-injury-claims-miami.html">Commercial Property Injuries in Miami</a></li><li><a href="/blog/shopping-mall-injury-claims-miami.html">Shopping Mall Injuries in Miami: Who Is Responsible?</a></li><li><a href="/blog/mall-escalator-injury-claims-miami.html">Escalator Injuries Inside Miami Malls</a></li><li><a href="/blog/elevator-escalator-injury-claims-miami.html">Elevator and Escalator Injuries in Miami Buildings</a></li><li><a href="/blog/office-building-injury-claims-miami.html">Office Building Injuries in Miami</a></li><li><a href="/blog/gym-fitness-center-injury-claims-miami.html">Gym and Fitness Center Injuries in Miami</a></li><li><a href="/blog/warehouse-injury-claims-miami.html">Hurt Visiting a Miami Warehouse or Distribution Center</a></li><li><a href="/blog/construction-site-visitor-injuries-miami.html">Injured Near a Miami Construction Site?</a></li></ul></div><div class="hub-list"><h2><a href="/injuries/restaurants-nightlife.html">Restaurants and Bars</a></h2><p>Dining rooms, bars, and Florida's narrow dram-shop statute.</p><ul><li><a href="/blog/nightclub-overcrowding-injuries-miami.html">Hurt in a Crowded Miami Nightclub?</a></li><li><a href="/blog/restaurant-bar-injury-claims-miami.html">Injured at a Miami Restaurant or Bar?</a></li><li><a href="/blog/florida-dram-shop-law-768-125-bar-injuries.html">Injured by a Drunk Patron: Florida's Dram Shop Law</a></li></ul></div><div class="hub-list"><h2><a href="/injuries/waterfront-storms.html">Ports, Marinas, and Storms</a></h2><p>Cruise terminals, docks, and property after a storm.</p><ul><li><a href="/blog/cruise-terminal-port-visitor-injuries-miami.html">Injured at PortMiami or a Cruise Terminal?</a></li><li><a href="/blog/marina-dock-injury-claims-miami.html">Injured on a Miami Marina, Dock, or Pier?</a></li><li><a href="/blog/hurricane-debris-property-injuries-miami.html">Injured by Debris or a Dark Property After a Miami Storm</a></li></ul></div><div class="hub-list"><h2><a href="/injuries/children-seniors-death.html">Children, Older Adults, and Wrongful Death</a></h2><p>Playgrounds, school visitors, elderly falls, and fatal injuries.</p><ul><li><a href="/blog/elderly-fall-injury-claims-miami.html">Elderly Fall Injuries in Miami: What Families Should Know</a></li><li><a href="/blog/playground-injury-claims-miami.html">Playground Injuries at Miami Apartments, Parks, and Daycares</a></li><li><a href="/blog/school-daycare-visitor-injuries-miami.html">Hurt Visiting a Miami School or Daycare?</a></li><li><a href="/blog/wrongful-death-premises-liability-miami.html">Wrongful Death from Premises Injuries in Miami</a></li><li><a href="/blog/florida-wrongful-death-premises-fall-who-can-file.html">Wrongful Death After a Fatal Property Incident: Who Can Bring the Claim</a></li></ul></div><div class="hub-list"><h2><a href="/injuries/dog-bites.html">Dog Bites</a></h2><p>Section 767.04 and bites on rental and condo property.</p><ul><li><a href="/blog/dog-bite-premises-liability-miami.html">Dog Bite Injuries on Miami Properties</a></li><li><a href="/blog/florida-dog-bite-statute-767-04-rentals-condos.html">Dog Bites at Rentals and Condos: Florida's Strict Liability Statute</a></li></ul></div><div class="hub-list"><h2><a href="/injuries/florida-law.html">Florida Premises Law</a></h2><p>Deadlines, fault, visitor status, government notice, bills, and insurance.</p><ul><li><a href="/blog/florida-premises-liability-law-guide.html">Florida Premises Liability Law: A Guide for Injury Victims</a></li><li><a href="/blog/florida-premises-injury-statute-of-limitations-2023-changes.html">Florida's Two-Year Deadline for Premises Injury Claims After the 2023 Changes</a></li><li><a href="/blog/florida-comparative-fault-51-percent-bar-premises-injury.html">Partly at Fault for Your Fall? Florida's 51% Bar Explained</a></li><li><a href="/blog/florida-invitee-licensee-trespasser-premises-liability.html">Invitee, Guest, or Trespasser: Why Your Status Matters</a></li><li><a href="/blog/florida-government-property-injury-notice-of-claim-768-28.html">Hurt on City or County Property: Florida's Notice-of-Claim Rules</a></li><li><a href="/blog/florida-medical-bills-evidence-768-0427-injury-claims.html">Medical Bills as Evidence in Florida Injury Cases After 2023</a></li><li><a href="/blog/how-much-premises-injury-case-worth-miami.html">How Damages Work in a Florida Premises Injury Claim</a></li><li><a href="/blog/how-insurance-coverage-works-premises-claims-miami.html">How Insurance Coverage Works in Miami Premises Injury Claims</a></li></ul></div>
+<section class="cta-banner">
+<h2>Injured on Someone Else's Property?</h2>
+<p>Camera footage and maintenance records are easy to lose. Call 305-792-9100 for a free consultation.</p>
+<a class="phone" href="tel:305-792-9100">305-792-9100</a>
+<a class="btn" href="/#contact">Request a Free Consultation</a>
+</section>
+<footer>
+<div class="footer-links">
+<a href="/">Home</a>
+<a href="/injuries/">Practice Areas</a>
+<a href="/blog/">Blog</a>
+<a href="/#contact">Contact</a>
+</div>
+<p>Recalde Law Firm, P.A. — Rafael Recalde, Esq. | <a href="tel:305-792-9100">305-792-9100</a> | <a href="mailto:rafael@recaldelaw.com">rafael@recaldelaw.com</a></p>
+<p>1111 Brickell Avenue, Floor 10, Miami, FL 33131</p>
+<p class="disclaimer">The information on this website is for general informational purposes only and is not legal advice. Contacting the firm does not create an attorney-client relationship. Recalde Law Firm, P.A. reviews premises-injury inquiries and refers litigation to other Florida counsel. It does not litigate injury cases. Any fee division requires your written consent under Rule 4-1.5 of the Rules Regulating The Florida Bar. Rafael Recalde is a member of The Florida Bar.</p>
+</footer>
+</body>
+</html>
